@@ -1,0 +1,7 @@
+<button (click)="onStart()">Start</button>
+<button (click)="onStop()">Stop</button>
+
+<div *ngIf="gameStarted">
+  <app-even [evenNumber]="number"></app-even>
+  <app-odd [oddNumber]="number"></app-odd>
+</div>

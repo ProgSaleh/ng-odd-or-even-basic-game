@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+button,
+h1 {
+  padding: 1.7rem;
+  margin-left: 22rem;
+  margin-top: 5rem;
+  border-radius: 3px;
+  background: crimson;
+  color: #fff;
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+button:hover {
+  background: #fff;
+  color: crimson;
+  cursor: pointer;
+}
+
+h1 {
+  width: fit-content;
+}
+
+.odd {
+  margin-left: 30rem;
+}
+
+.even {
+  margin-left: 45rem;
+}
